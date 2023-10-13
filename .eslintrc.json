@@ -1,7 +1,9 @@
 {
+  "plugins": ["react-hooks"],
   "extends": "next",
   "rules": {
     "react/no-unescaped-entities": "off",
-    "@next/next/no-img-element": "off"
+    "@next/next/no-img-element": "off",
+    "react-hooks/exhaustive-deps": 0
   }
 }

@@ -100,6 +100,7 @@ const Navigation = () => {
     document.removeEventListener("mousemove", handleMouseMove);
     document.removeEventListener("mouseup", handleMouseUp);
   };
+  
   useEffect(() => {
     if (isMobile) {
       collapse();
@@ -107,6 +108,7 @@ const Navigation = () => {
       resetWidth();
     }
   }, [isMobile]);
+
   useEffect(() => {
     if (isMobile) {
       collapse();
